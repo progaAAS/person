@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  border-bottom: 1px solid rgba(17, 17, 17, 0.48);
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+.logo, .menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  width: 20%;
+}
+
+.menu{
+  width: 80%;
+  margin-left: -340px;
+}
+
+.menu .container{
+  display: flex;
+  justify-content: space-around;
+  width: 150px;
+}
+
+.nav__links {
+  color: rgba(17, 17, 17, 0.48);
+  text-decoration: none;
+  font-size: 18px;
+}

@@ -1,0 +1,13 @@
+.form_item {
+  vertical-align: top;
+  position: relative;
+}
+
+.form_input {
+  width: 30%;
+  height: 40px;
+  padding: 5px 15px;
+  width: 100%;
+  border: 1px solid #F1F1F1;
+  border-radius: 4px;
+}

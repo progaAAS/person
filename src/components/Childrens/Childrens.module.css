@@ -1,0 +1,77 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+h3{
+  display: flex;
+  align-items: center;
+}
+
+.boxItem{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btn_box{
+  display: flex;
+  align-items: center;
+}
+.form_item {
+  vertical-align: top;
+  position: relative;
+}
+
+.form_input {
+  width: 260px;
+  height: 40px;
+  padding: 5px 15px;
+}
+
+.form_label {
+  position: absolute;
+  pointer-events: none;
+  left: 15px;
+  right: 15px;
+  top: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  line-height: 40px;
+  transition: .3s;
+}
+
+.form_input:focus~.form_label,
+.form_input:not(:focus):valid~.form_label {
+  top: -10px;
+  left: -190px;
+  font-size: 10px;
+}
+
+.remove{
+  border: 0;
+  background-color: white;
+  font-size: 14px;
+  color: #01A7FD;
+}
+.remove:hover{
+  cursor: pointer;
+}
+
+.addChildren{
+  background-color: white;
+  border: 1px solid #01A7FD;
+  color: #01A7FD;
+  border-radius: 100px;
+  padding: 10px;
+}
+.addChildren:hover{
+  cursor: pointer;
+  background-color: #01A7FD;
+  border: 1px solid #01A7FD;
+  color: white;
+}
+.addChildren:disabled{
+  background-color: #969696;
+  color: white;
+  border: 0;
+}
